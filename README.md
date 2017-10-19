@@ -38,8 +38,7 @@ I would prefer to use a more general model of annotation, so that we can treat n
 
 The [W3C annotation model](https://www.w3.org/TR/annotation-vocab/) treats an annotation as comprising a **target** (the thing being annotated, such as a page in a paper) and a **body** (the annotation itself, e.g. the taxonomic name).
 
-
-
+![image](https://raw.githubusercontent.com/rdmpage/annotations-and-instances/master/images/annotation.png)
 
 ## Fragment identifiers
 
@@ -123,6 +122,9 @@ Below is an instance for [*Nuytsia floribunda* (Labill.) R.Br. ex G.Don](https:/
 }
 ```
 
+## What’s missing
+
+![image](https://raw.githubusercontent.com/rdmpage/annotations-and-instances/master/images/synonymy-model-lego-style.png)
 
 
 
