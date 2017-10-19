@@ -68,7 +68,7 @@ We can use XPointer to identify locations in a XML document.  For example, #xpoi
 }
 ```
 
-As an example, the paper https://doi.org/10.3897/phytokeys.13.2670 has two descriptions of two new species. If we grab the [XML for this paper](path/phytokeys-1426.xml) we can locate the descriptions using the xpath query **//tp:taxon-treatment**. If we get the full path (e.g. using path.php) the descriptions are at:
+As an example, the paper https://doi.org/10.3897/phytokeys.13.2670 has two descriptions of two new species. If we grab the [XML for this paper](xpath/phytokeys-1426.xml) we can locate the descriptions using the xpath query **//tp:taxon-treatment**. If we get the full path (e.g. using [path.php](xpath/path.php)) the descriptions are at:
 ```
 /article/body/sec[3]/tp:taxon-treatment[1]
 /article/body/sec[3]/tp:taxon-treatment[2]
