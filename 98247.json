@@ -1,0 +1,339 @@
+{
+	"name": {
+		"class": "au.org.biodiversity.nsl.Name",
+		"_links": {
+			"permalinks": [{
+				"link": "https://biodiversity.org.au/apni.name/44409",
+				"preferred": false,
+				"resources": 1
+			}, {
+				"link": "https://biodiversity.org.au/boa/name/apni/98247",
+				"preferred": false,
+				"resources": 1
+			}, {
+				"link": "https://id.biodiversity.org.au/98247",
+				"preferred": false,
+				"resources": 1
+			}, {
+				"link": "https://id.biodiversity.org.au/name/apni/98247",
+				"preferred": true,
+				"resources": 1
+			}, {
+				"link": "https://id.biodiversity.org.au/Nuytsia%20floribunda%20%28Labill.%29%20R.Br.%20ex%20G.Don",
+				"preferred": false,
+				"resources": 11
+			}]
+		},
+		"audit": {
+			"created": {
+				"by": "AMONRO",
+				"at": "2009-03-29T21:52:41Z"
+			},
+			"updated": {
+				"by": "AMONRO",
+				"at": "2009-03-29T21:52:41Z"
+			}
+		},
+		"namespace": "APNI",
+		"fullName": "Nuytsia floribunda (Labill.) R.Br. ex G.Don",
+		"fullNameHtml": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+		"nameElement": "floribunda",
+		"simpleName": "Nuytsia floribunda",
+		"rank": {
+			"name": "Species",
+			"sortOrder": 190
+		},
+		"type": "scientific",
+		"status": "legitimate",
+		"tags": [],
+		"parent": {
+			"class": "au.org.biodiversity.nsl.Name",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/name/apni/98228",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"nameElement": "Nuytsia",
+			"fullNameHtml": "<scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement> <authors><ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>"
+		},
+		"secondParent": {},
+		"instances": [{
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/524020",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "73, Figs 20B-F, 32, Map 77",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Barlow, B.A. in George, A.S. (ed.) (1984), Loranthaceae. Flora of Australia 22",
+			"citationHtml": "Barlow, B.A. in George, A.S. (ed.) (1984), Loranthaceae. <i>Flora of Australia<\u002fi> 22",
+			"citationAuthYear": "Barlow, 1984"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/762837",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "387",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Bentham, G. (1867), Orders XLVIII. Myrtaceae- LXII. Compositae. Flora Australiensis 3",
+			"citationHtml": "Bentham, G. (1867), Orders XLVIII. Myrtaceae- LXII. Compositae. <i>Flora Australiensis<\u002fi> 3",
+			"citationAuthYear": "Benth., 1867"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/736170",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "661",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Wheeler, J.R., Marchant, N.G. & Lewington, M. (2002), Dicotyledons. Flora of the South West 2",
+			"citationHtml": "Wheeler, J.R., Marchant, N.G. & Lewington, M. (2002), Dicotyledons. <i>Flora of the South West<\u002fi> 2",
+			"citationAuthYear": "J.R.Wheeler, N.G.Marchant & M.Lewington, 2002"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/710750",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "201-203, Pl. 27",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. Proceedings of the Linnean Society of New South Wales 47(3)",
+			"citationHtml": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. <i>Proceedings of the Linnean Society of New South Wales<\u002fi> 47(3)",
+			"citationAuthYear": "Blakely, 1922"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/586308",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": null,
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Robson, Peter J. (1993), Checklist of Australian Trees: alphabetical listings of common and scientific names",
+			"citationHtml": "Robson, Peter J. (1993), <i>Checklist of Australian Trees: alphabetical listings of common and scientific names<\u002fi>",
+			"citationAuthYear": "Robson, Peter J., 1993"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/718188",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "440, Fig. 166",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Rye, B.L. in Marchant, N.G., Wheeler, J.R., Rye, B.L., Bennett, E.M., Lander, N.S. & Macfarlane, T.D. (1987), Loranthaceae. Flora of the Perth Region 1",
+			"citationHtml": "Rye, B.L. in Marchant, N.G., Wheeler, J.R., Rye, B.L., Bennett, E.M., Lander, N.S. & Macfarlane, T.D. (1987), Loranthaceae. <i>Flora of the Perth Region<\u002fi> 1",
+			"citationAuthYear": "Rye, 1987"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/6562173",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "13, 19",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Bickford, E.J. (1899), Wild flowers of Western Australia. Journal & Proceedings of the Mueller Botany Society of Western Australia 1(4)",
+			"citationHtml": "Bickford, E.J. (1899), Wild flowers of Western Australia. <i>Journal & Proceedings of the Mueller Botany Society of Western Australia<\u002fi> 1(4)",
+			"citationAuthYear": "Bickford, E.J., 1899"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/9108443",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "175",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Diels, F.L.E. & Pritzel, E.G. (1904), Fragmenta Phytographiae Australiae occidentalis. Beitrage zur Kenntnis der Pflanzen Westaustraliens, ihrer Verbreitung und ihrer Lebensverhaltnisse. Botanische Jahrbucher fur Systematik, Pflanzengeschichte und Pflanzengeographie 35(2-3)",
+			"citationHtml": "Diels, F.L.E. & Pritzel, E.G. (1904), Fragmenta Phytographiae Australiae occidentalis. Beitrage zur Kenntnis der Pflanzen Westaustraliens, ihrer Verbreitung und ihrer Lebensverhaltnisse. <i>Botanische Jahrbucher fur Systematik, Pflanzengeschichte und Pflanzengeographie<\u002fi> 35(2-3)",
+			"citationAuthYear": "Diels & E.Pritz., 1904"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/646687",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": null,
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "CHAH (2006), Australian Plant Census",
+			"citationHtml": "CHAH (2006), <i>Australian Plant Census<\u002fi>",
+			"citationAuthYear": "CHAH, 2006"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/780245",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "65",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Mueller, F.J.H. von (1882), Systematic Census of Australian Plants",
+			"citationHtml": "Mueller, F.J.H. von (1882), <i>Systematic Census of Australian Plants<\u002fi>",
+			"citationAuthYear": "F.Muell., 1882"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/6958022",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "67",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Green, J.W. (1985), Census of the Vascular Plants of Western Australia Edn. 2",
+			"citationHtml": "Green, J.W. (1985), <i>Census of the Vascular Plants of Western Australia<\u002fi> Edn. 2",
+			"citationAuthYear": "J.W.Green, 1985"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/524019",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "438, Fig. 4 (map), 447",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Barlow, B.A. (1966), A revision of the Loranthaceae of Australia and New Zealand. Australian Journal of Botany 14(3)",
+			"citationHtml": "Barlow, B.A. (1966), A revision of the Loranthaceae of Australia and New Zealand. <i>Australian Journal of Botany<\u002fi> 14(3)",
+			"citationAuthYear": "Barlow, 1966"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/646676",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "comb. nov.",
+			"page": "432",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": true,
+			"citation": "Don, G. (1834), A General History of Dichlamydeous Plants 3",
+			"citationHtml": "Don, G. (1834), <i>A General History of Dichlamydeous Plants<\u002fi> 3",
+			"citationAuthYear": "G.Don, 1834"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/6562174",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "secondary reference",
+			"page": "65",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Fitzgerald, W.V. (1903), Trees of Western Australia, with notes on their uses and distribution. Journal & Proceedings of the Mueller Botany Society of Western Australia 1(11)",
+			"citationHtml": "Fitzgerald, W.V. (1903), Trees of Western Australia, with notes on their uses and distribution. <i>Journal & Proceedings of the Mueller Botany Society of Western Australia<\u002fi> 1(11)",
+			"citationAuthYear": "W.Fitzg., 1903"
+		}],
+		"author": {
+			"class": "au.org.biodiversity.nsl.Author",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/author/apni/6943",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"name": "G.Don"
+		},
+		"baseAuthor": {
+			"class": "au.org.biodiversity.nsl.Author",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/author/apni/6858",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"name": "Labill."
+		},
+		"exAuthor": {
+			"class": "au.org.biodiversity.nsl.Author",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/author/apni/1441",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"name": "R.Br."
+		},
+		"exBaseAuthor": {},
+		"primaryInstance": [{
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/646676",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "comb. nov.",
+			"page": "432",
+			"name": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": true,
+			"citation": "Don, G. (1834), A General History of Dichlamydeous Plants 3",
+			"citationHtml": "Don, G. (1834), <i>A General History of Dichlamydeous Plants<\u002fi> 3",
+			"citationAuthYear": "G.Don, 1834"
+		}]
+	}
+}

@@ -1,0 +1,146 @@
+{
+	"instance": {
+		"class": "au.org.biodiversity.nsl.Instance",
+		"_links": {
+			"permalinks": [{
+				"link": "https://biodiversity.org.au/apni.taxon/583198",
+				"preferred": false,
+				"resources": 1
+			}, {
+				"link": "https://biodiversity.org.au/boa/instance/apni/710750",
+				"preferred": false,
+				"resources": 1
+			}, {
+				"link": "https://id.biodiversity.org.au/710750",
+				"preferred": false,
+				"resources": 1
+			}, {
+				"link": "https://id.biodiversity.org.au/instance/apni/710750",
+				"preferred": true,
+				"resources": 1
+			}, {
+				"link": "https://id.biodiversity.org.au/Nuytsia%20floribunda%20%28Labill.%29%20R.Br.%20ex%20G.Don",
+				"preferred": false,
+				"resources": 11
+			}]
+		},
+		"audit": {
+			"created": {
+				"by": "PKODELA",
+				"at": "2011-09-08T14:00:00Z"
+			},
+			"updated": {
+				"by": "amonro",
+				"at": "2016-05-06T07:28:04Z"
+			}
+		},
+		"namespace": "APNI",
+		"verbatimNameString": null,
+		"page": "201-203, Pl. 27",
+		"pageQualifier": null,
+		"nomenclaturalStatus": null,
+		"bhlUrl": "http://biodiversitylibrary.org/page/35116678",
+		"instanceType": {
+			"name": "secondary reference",
+			"flags": {
+				"primaryInstance": false,
+				"secondaryInstance": true,
+				"relationship": false,
+				"protologue": false,
+				"taxonomic": false,
+				"nomenclatural": false,
+				"synonym": false,
+				"proParte": false,
+				"doubtful": false,
+				"misapplied": false,
+				"standalone": true,
+				"unsourced": false,
+				"citing": false,
+				"deprecated": false
+			},
+			"sortOrder": 400,
+			"rdfId": "secondary-reference",
+			"descriptionHtml": "(description of <b>secondary reference<\u002fb>)"
+		},
+		"name": {
+			"class": "au.org.biodiversity.nsl.Name",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/name/apni/98247",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"nameElement": "floribunda",
+			"fullNameHtml": "<scientific><name id='98247'><scientific><name id='98228'><element class='Nuytsia'>Nuytsia<\u002felement><\u002fname><\u002fscientific> <element class='floribunda'>floribunda<\u002felement> <authors>(<base id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fbase>) <ex id='1441' title='Brown, R.'>R.Br.<\u002fex> ex <author id='6943' title='Don, G.'>G.Don<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>"
+		},
+		"reference": {
+			"class": "au.org.biodiversity.nsl.Reference",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/reference/apni/51640",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"citation": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. Proceedings of the Linnean Society of New South Wales 47(3)",
+			"citationHtml": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. <i>Proceedings of the Linnean Society of New South Wales<\u002fi> 47(3)",
+			"citationAuthYear": "Blakely, 1922"
+		},
+		"parent": {},
+		"cites": {},
+		"citedBy": {},
+		"instancesForCitedBy": [{
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/917230",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "nomenclatural synonym",
+			"page": "201",
+			"name": "<scientific><name id='57460'><scientific><name id='97859'><element class='Loranthus'>Loranthus<\u002felement><\u002fname><\u002fscientific> <element class='floribundus'>floribundus<\u002felement> <authors><author id='6858' title='Labillardiere, J.J.H. de'>Labill.<\u002fauthor><\u002fauthors><\u002fname><\u002fscientific>",
+			"protologue": false,
+			"citation": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. Proceedings of the Linnean Society of New South Wales 47(3)",
+			"citationHtml": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. <i>Proceedings of the Linnean Society of New South Wales<\u002fi> 47(3)",
+			"citationAuthYear": "Blakely, 1922"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/990717",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "common name",
+			"page": null,
+			"name": "<common><name id='440910'><element class='Cabbage-tree'>Cabbage-tree<\u002felement><\u002fname><\u002fcommon>",
+			"protologue": false,
+			"citation": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. Proceedings of the Linnean Society of New South Wales 47(3)",
+			"citationHtml": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. <i>Proceedings of the Linnean Society of New South Wales<\u002fi> 47(3)",
+			"citationAuthYear": "Blakely, 1922"
+		}, {
+			"class": "au.org.biodiversity.nsl.Instance",
+			"_links": {
+				"permalink": {
+					"link": "https://id.biodiversity.org.au/instance/apni/990716",
+					"preferred": true,
+					"resources": 1
+				}
+			},
+			"instanceType": "common name",
+			"page": null,
+			"name": "<common><name id='433958'><element class='Christmas Tree'>Christmas Tree<\u002felement><\u002fname><\u002fcommon>",
+			"protologue": false,
+			"citation": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. Proceedings of the Linnean Society of New South Wales 47(3)",
+			"citationHtml": "Blakely, W.F. (1922), The Loranthaceae of Australia. Part ii. <i>Proceedings of the Linnean Society of New South Wales<\u002fi> 47(3)",
+			"citationAuthYear": "Blakely, 1922"
+		}],
+		"instancesForCites": [],
+		"instancesForParent": [],
+		"instanceNotes": []
+	}
+}
