@@ -87,7 +87,7 @@ where **pagenum** is the ordinal page number starting at 1. Web browsers such as
 ## Mapping
 
 Annotation | Instance | hypothes.is | remarks
-    --- | --- | --- 
+--- | --- | --- | ---
 target.source | bhlUrl | target.source | URI for the thing being annotated, e.g. web page, XML document, PDF, page image, etc.
 target.scope | reference | uri | URI for the reference that includes the instance, e.g. DOI for the reference containing the name. Hypothes.is uses **urn:x-pdf** for PDFs, otherwise URI of resource being annotated
 target.scope | . | document | hypothes.is also includes metadata about the article, e.g. from citation_* meta tags, as well as “documentFingerprint” (maybe a hash of the PDF?)
