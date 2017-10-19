@@ -68,6 +68,13 @@ We can use XPointer to identify locations in a XML document.  For example, #xpoi
 }
 ```
 
+As an example, the paper https://doi.org/10.3897/phytokeys.13.2670 has two descriptions of two new species. If we grab the [XML for this paper](path/phytokeys-1426.xml) we can locate the descriptions using the xpath query **//tp:taxon-treatment**. If we get the full path (e.g. using path.php) the descriptions are at:
+```
+/article/body/sec[3]/tp:taxon-treatment[1]
+/article/body/sec[3]/tp:taxon-treatment[2]
+```
+
+
 ### PDF
  For a PDF we can use the **page** fragment identifier, see 
 [RFC 3778 - The application/pdf Media Type](https://tools.ietf.org/html/rfc3778).
@@ -107,6 +114,7 @@ Below is an instance for [*Nuytsia floribunda* (Labill.) R.Br. ex G.Don](https:/
 {
 	"@context": "http://www.w3.org/ns/anno.jsonld",
 	"@id": "https://biodiversity.org.au/boa/instance/apni/710750",
+  "type": "Annotation",
 	"created": "2011-09-08T14:00:00Z",
 	"motivation": "linking",
 	"body": "https://biodiversity.org.au/boa/name/apni/98247",
@@ -123,6 +131,8 @@ Below is an instance for [*Nuytsia floribunda* (Labill.) R.Br. ex G.Don](https:/
 ```
 
 ## What’s missing
+
+The instances model includes the ability to have relationships between instances. I’ve not attempted to model this yet.
 
 ![image](https://raw.githubusercontent.com/rdmpage/annotations-and-instances/master/images/synonymy-model-lego-style.png)
 
