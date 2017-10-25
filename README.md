@@ -61,8 +61,8 @@ We can use XPointer to identify locations in a XML document.  For example, #xpoi
   "target": {
     "source": "http://example.org/page1.html",
     "selector": {
-      "type": "XPathSelector",
-      "value": "/html/body/p[2]/table/tr[2]/td[3]/span"
+    "type": "XPathSelector",
+    "value": "/html/body/p[2]/table/tr[2]/td[3]/span"
     }
   }
 }
@@ -136,7 +136,51 @@ The instances model includes the ability to have relationships between instances
 
 ![image](https://raw.githubusercontent.com/rdmpage/annotations-and-instances/master/images/synonymy-model-lego-style.png)
 
+### Citations of instances
+
+The NSL model includes *cites* and *cited_by” relationships. These enable us to model where a taxonomist publishes a synonymy list, which is a list of instances (cited by the instance the taxonomist has created by publishing the list). This is essentially what Huber and Klump were doing with “Charting taxonomic knowledge through ontologies and ranking algorithms” [doi:10.1016/j.cageo.2008.02.016](https://doi.org/10.1016/j.cageo.2008.02.016) where they computed a page rank-like measure “to calculate the impact of synonymies and taxonomic concepts”.
+
+So, if a taxonomist does this:
+
+**Aus bus** [instance 1, this publication]
+- *A. bus* Fred 1910 [instance 2]
+- *B. bus* Sarah 1945 [instance 3]
+
+Then instance 1 cites instances 2 and 3.
+
+
+```
+{
+  "_id": "80f896ad-673a-4506-85ba-7f76aaf63847",
+  "_rev": "1-53885c46b7618ace03cf4cf150eb0e12",
+  "docType": "taxonName",
+  "guid": "80f896ad-673a-4506-85ba-7f76aaf63847",
+  "rankString": "Species",
+  "nameType": "Synonym",
+  "nameComplete": "Eulechria episema",
+  "nameCompleteHtml": "<i>Eulechria episema</i>",
+  "authorship": "Meyrick",
+  "nameWithAuthorship": "Eulechria episema Meyrick, 1883",
+  "nameWithAuthorshipHtml": "<i>Eulechria episema</i> Meyrick, 1883",
+  "year": "1883",
+  "originalCombination": true,
+  "publishedInCitation": "6d57f0e6-51f8-414b-8397-964ace50e1e8",
+  "publishedIn": "Meyrick, E. 1883. Descriptions of Australian Micro-lepidoptera. VIII. Oecophoridae. <em>Proceedings of the Linnean Society of New South Wales</em> 1 <strong>7</strong>(4): 415-547",
+  "concept": "0118a153-116d-4e32-a431-69720d5376c6",
+  "taxon": "000059a7-3415-4a7b-b9b8-0e3c390092a1"
+}
+```
 
 
 
+afd annotation
 
+{
+	"@context": "http://www.w3.org/ns/anno.jsonld",
+	"@id": "xxxxx",
+	"motivation": "linking",
+	"body": "80f896ad-673a-4506-85ba-7f76aaf63847", // taxonName 
+	"target": {
+		"scope": "6d57f0e6-51f8-414b-8397-964ace50e1e8" // reference 
+	}
+}
